@@ -7,11 +7,13 @@
 </head>
 
 <body>
-    <?php echo 'Utilizando a tag padrão';?>
-    <br/>
-    <?= 'Utilizando a tag impressão' ?>
-    <br/>
-    <? echo 'Utilizando a tag curta' ?>
+    <?php
+
+    echo 'Comando echo<br/>';
+
+    print 'Comando print<hr/>';
+
+    ?>
 </body>
 
 </html>
