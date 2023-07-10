@@ -16,7 +16,8 @@
     //echo round($num) //arredonda com base na fração // .0 e .4 => PARA BAIXO .5 => CIMA
     //echo rand(1, 20); //gerar um valor aleatorio 0 até randmax
     //echo '<br/>' . getrandmax();
-    echo sqrt(9)
+    //echo sqrt(9)
+    
    
     ?>
 
