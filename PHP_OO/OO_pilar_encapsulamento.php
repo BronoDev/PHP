@@ -38,6 +38,42 @@ class Pai
     }
 }
 
+class Filho extends Pai
+{
+    public function __construct()
+    {
+        //exibir os métodos do objeto
+        echo '<pre>';
+        print_r(get_class_methods($this));
+        echo '</pre>';
+    }
+
+    private function executarMania()
+    {
+        echo 'Cantar';
+    }
+
+    protected function responder()
+    {
+        echo 'Oi';
+    }
+
+    public function x(){
+        $this->executarMania();
+    }
+}
+/*
 $pai = new Pai();
 //echo $pai->getSobrenome();
 echo $pai->executarAcao();
+*/
+
+$filho = new Filho();
+echo '<pre>';
+print_r($filho);
+echo '</pre>';
+
+$filho->executarAcao();
+echo '<br>';
+$filho->x();
+
